@@ -207,6 +207,15 @@ body{
         font-size: 18px !important;
         width: 80% !important;
     }
+    .footer-miniheading{
+        padding-left: 5px !important;
+    }
+    .footer-text{
+        padding-left: 5px !important;
+    }
+    .footer-request{
+        margin-left: 5px !important;
+    }
 }
 @media (max-width: 1018px) {
     .wrapper{
@@ -266,10 +275,22 @@ body{
         margin: auto;
     }
     
+    
     .footer-textcon{
         width: 95% !important;
     }
     .footer-text br{
         display: none !important;
+    }
+}
+@media (max-width: 740px) {
+    .footer-miniheading{
+        padding-left: 31px !important;
+    }
+    .footer-text{
+        padding-left: 31px !important;
+    }
+    .footer-request{
+        margin-left: 31px !important;
     }
 }
