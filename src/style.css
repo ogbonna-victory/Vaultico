@@ -192,19 +192,19 @@ body{
         font-size: 18px;
     }
     .fa-regular.fa-square-check{
-        font-size: 15px;
+        font-size: 20px;
     }
     .intro-text{
-        font-size: 18px;
+        font-size: 16px;
     }
     .heading{
         font-size: 20px !important;
     }
     .bg-black-text{
-        font-size: small;
+        font-size: 16px;
     }
     .partners-heading{
-        font-size: 20px !important;
+        font-size: 18px !important;
     }
 }
 @media (max-width: 1018px) {
