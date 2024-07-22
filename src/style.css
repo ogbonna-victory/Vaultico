@@ -186,6 +186,20 @@ body{
     .allinial{
         width: 250px;
     }
+    .request-btn, .signup-btn{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: smaller;
+    }
+    .fa-regular.fa-square-check{
+        font-size: 10px;
+    }
+    .intro-text{
+        font-size: 18px;
+    }
+    .heading, .bg-black-text{
+        font-size: smaller !important;
+    }
 }
 @media (max-width: 1018px) {
     .wrapper{
