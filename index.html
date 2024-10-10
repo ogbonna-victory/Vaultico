@@ -25,11 +25,13 @@
               <a class="navbar-brand" href="#">
                 <img src="./image/logo.png" alt="Valutico" height="20px">
               </a>
-
+              <!--bg color change moon icon-->
+                <i class="fa-solid fa-moon d-lg-none d-block bgchange mx-auto" onclick="changeBackground()"></i>
               <!--Navbar Toggle-->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+  
               <!--Nav Links start-->
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto mx-lg-auto mx-xl-auto mx-xxl-auto">
@@ -48,6 +50,8 @@
                 </ul>
               </div>
               <!--Nav Links end-->
+              <!--bg color change moon icon-->
+              <i class="fa-solid fa-moon d-none d-lg-block" onclick="changeBackground()"></i>
               <!--Header Button-->
               <button type="button" class="btn btn-lg header-btn">Request a Demo <i class="fa-regular fa-square-check"></i></button>
             </div>
@@ -165,18 +169,6 @@
               </div>
             </div>
           </section>
-           <section>
-            <div class="colorbox ms-5 mt-3">
-              <div class="colorfillbox">
-              <div class="lightgrey"></div>
-              <div class="purple"></div>
-              <div class="bluegreen"></div>
-              <div class="lightgreen"></div>
-            </div>
-            <button onclick="changeBackground()" type="button" class="btn bg-color btn-outline">Change Bg Color</button>
-          </div>
-          <p class="ms-5 bg-colortext">Choose your preferred color from the above colors.</p>
-           </section>
         </main>
         <footer>
           <div class="pt-4 pb-2 footerbg">

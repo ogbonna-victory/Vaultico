@@ -13,6 +13,15 @@ body{
     z-index: 1030;
     padding-bottom: 15px;
 }
+.bgchange{
+    margin-right: 20px !important;
+    padding-right: 20px !important;
+}
+.fa-solid.fa-moon{
+    color: #6FC247 !important;
+    font-size: 28px !important;
+    margin-right: 20px !important;
+}
 .nav-link{
     color: black !important;
     font-size: 18px;
@@ -129,47 +138,6 @@ body{
     height: 530px !important;
     display: flex;
 }
-.footerbg{
-    background-color: #f9f9f9;
-}
-.colorbox{
-    display: flex;
-}
-.colorfillbox{
-    width: 80px;
-    height: 30px;
-    background-color: #f1f1f1;
-    display: flex;
-    margin-top: 7px !important;
-}
-.lightgrey{
-    width: 20px;
-    height: 30px;
-    background-color: #f0f0f0;
-}
-.purple{
-    width: 20px;
-    height: 30px;
-    background-color: #8247c2;
-}
-.bluegreen{
-    width: 20px;
-    height: 30px;
-    background-color: #2b9eb3;
-}
-.lightgreen{
-    width: 20px;
-    height: 30px;
-    background-color: #a4e57a;
-}
-.bg-color{
-    padding-left: 8px !important;
-    padding-right: 8px !important;
-}
-.bg-colortext{
-    margin-top: 5px;
-    margin-bottom: 30px !important;
-}
 @media (max-width: 991px) {
     .header-btn{
         display: none;
@@ -193,9 +161,6 @@ body{
     }
     .fa-regular.fa-square-check{
         font-size: 20px;
-    }
-    .bg-color{
-        padding: 5px 5px 5px 5px;
     }
     .footer-miniheading{
         padding-left: 5px !important;
